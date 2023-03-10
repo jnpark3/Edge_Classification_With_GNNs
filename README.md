@@ -12,7 +12,7 @@ Jupyter notebook described in the deliverable section for this task. Contains ex
 utils/dataStorage.py
 ```
 
-Contains the class `DataStorage`, which is used for storing graph data obtained from files. This class extends the class described in the task document by adding a method to append to the graph list, and also performing an automatic 80-20 train-test split of the provided dataset. New methods were added to support this split functionality.
+Contains the class `DataStorage`, which is used for storing graph data obtained from files. This class extends the class described in the task document by adding a method to append additional to the graphs to the object after initialization. Also, this class performs an automatic 80-20 train-test split of the provided dataset. New methods were added to support this splitting functionality.
 
 ```
 utils/model.py
@@ -28,7 +28,7 @@ Contains a copy of all classes and functions created as a part of Task 1 of the 
 
 ### Running the Contents of this Repository
 
-As the dataset file is not included in this repository in the interest of space, in order to run the contents of the Jupyter notebook, a file named `dataset` must be added to the root folder containing the batch folders `batch_1_0`, `batch_1_1`, ..., `batch_1_9`. Additionally, ensure the necessary imports are installed (listed on the first two cells of the notebook).
+As the dataset file is not included in this repository in the interest of space, in order to run the contents of the Jupyter notebook, a folder named `dataset` must be added to the root folder containing the batch folders `batch_1_0`, `batch_1_1`, ..., `batch_1_9`. Additionally, ensure the necessary imports are installed (listed on the first two cells of the notebook).
 
 ### Summary of Results
 
