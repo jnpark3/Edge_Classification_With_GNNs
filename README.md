@@ -1,4 +1,4 @@
-# CERN GSoC Machine Learning & Statistics Task:
+# HSF GSoC Machine Learning & Statistics Task:
 
 ### Main Contents of Repository
 
@@ -46,4 +46,6 @@ It is noted in the task document that the commits for this repository may be obs
 
  - While I was solving issues related to git, I forked one of my previously existing (and irrelevant) repositories to get this repository started. As a result, there are two commits on this rep originating before March; these are completely disconnected from my submission.
 
+ - See my other submission on the software engineering task to see my model included in `gnn_tracking/models/`.
+ 
  - Otherwise, this task was surprisingly enjoyable and I had a good time. Thank you for your time and consideration.
