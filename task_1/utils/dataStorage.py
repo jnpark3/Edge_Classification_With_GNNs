@@ -2,7 +2,7 @@ from torch.utils.data import Dataset
 from pathlib import Path
 import torch
 
-class MyDataset(Dataset):
+class dataStorage(Dataset):
     def __init__(self, path: Path):
         super().__init__()
         self.graphs = list(path.glob("*.pt"))
