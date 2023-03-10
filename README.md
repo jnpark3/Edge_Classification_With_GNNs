@@ -21,7 +21,7 @@ utils/model.py
 Contains the class `EdgeModel`, the model used in `task1.ipynb`. This model is further described below in the model section.
 
 ```
-task2_files/task2.ipynb
+software_task_files/copy.ipynb
 ```
 
 Contains a copy of all classes and functions created as a part of Task 1 of the Software Engineering tasks, including unit testing operations. The original implementations of the main function can be found in `gnn_tracking/models/edge_classifier.py` within my separate task 2 submission.
