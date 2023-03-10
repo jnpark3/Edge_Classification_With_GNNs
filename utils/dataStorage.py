@@ -5,13 +5,16 @@ from sklearn.model_selection import train_test_split
 
 class dataStorage(Dataset):
     def __init__(self, path):
+        """
+        
+        """
         if isinstance(path, Path):
             super().__init__()
             graphs = list(path.glob("*.pt"))
             train_data, test_data = train_test_split(graphs, test_size=0.2, random_state=17)
             self.train_graphs = train_data
             self.test_graphs = test_data
-        else:
+        else: 
             self.graphs = path
     
     def append(self, path: Path):
