@@ -3,7 +3,7 @@ from pathlib import Path
 import torch
 from sklearn.model_selection import train_test_split
 
-class dataStorage(Dataset):
+class DataStorage(Dataset):
     def __init__(self, path):
         """
         
