@@ -12,7 +12,7 @@ Jupyter notebook described in the deliverable section for this task. Contains ex
 utils/dataStorage.py
 ```
 
-Contains the class `dataStorage`, which is used for storing graph data obtained from files. This class extends the class described in the task document by adding a method to append to the graph list, and also performing an automatic 80-20 train-test split of the provided dataset. New methods were added to support this split functionality.
+Contains the class `DataStorage`, which is used for storing graph data obtained from files. This class extends the class described in the task document by adding a method to append to the graph list, and also performing an automatic 80-20 train-test split of the provided dataset. New methods were added to support this split functionality.
 
 ```
 utils/model.py
